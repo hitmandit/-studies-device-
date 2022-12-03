@@ -444,6 +444,12 @@ input {
   z-index: 1;
 }
 
+.slider-image {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
 .slider-controls {
   position: absolute;
   top: 37%;
@@ -1339,7 +1345,6 @@ input {
 /* Подвал */
 
 .page-footer {
-  width: 100vw;
   background: #444444;
 }
 
